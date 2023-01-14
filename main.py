@@ -627,25 +627,34 @@ if x2 ==9:
   print("     |     |     ")
   print()
 
-a = float(input("What is your combination so far? Enter combination as a three digit number:"))
+a = float(input("What is your combination so far? Enter combination as a three digit number from least to greatest:"))
 
 
 if a == 123:
     print("congrats! you won!")
+    quit()
 if a == 456:
     print("congrats! you won!")
+    quit()
 if a == 789:
     print("congrats! you won!")
+    quit()
 if a == 147:
     print("congrats! you won!")
+    quit()
 if a == 258:
     print("congrats! you won!")
+    quit()
 if a == 369:
     print("congrats! you won!")
+    quit()
 if a == 159:
     print("congrats! you won!")
+    quit()
 if a == 357:
+    print()
     print("congrats! you won!")
+    quit()
 
 if a != 123:
   if a != 456:
@@ -779,25 +788,34 @@ if o2 ==9:
   print("     |     |     ")
   print()
 
-a = float(input("What is your combination so far? Enter combination as a three digit number:"))
+a = float(input("What is your combination so far? Enter combination as a three digit number from least to greatest:"))
 
 
 if a == 123:
     print("congrats! you won!")
+    quit()
 if a == 456:
     print("congrats! you won!")
+    quit()
 if a == 789:
     print("congrats! you won!")
+    quit()
 if a == 147:
     print("congrats! you won!")
+    quit()
 if a == 258:
     print("congrats! you won!")
+    quit()
 if a == 369:
     print("congrats! you won!")
+    quit()
 if a == 159:
     print("congrats! you won!")
+    quit()
 if a == 357:
+    print()
     print("congrats! you won!")
+    quit()
 
 if a != 123:
   if a != 456:
@@ -808,3 +826,494 @@ if a != 123:
             if a != 159:    
               if a != 357:
                 print("X's turn!")
+
+print("You can not place 'X' in box numbers", o, o1, o2) 
+print("In your last turn, you placed your 'X' in box numbers",x, x1, x2)
+print()
+x3 = float(input("Enter the box number you want to place the X."))
+
+if x3 ==1:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("  X  |     |     ")
+  print("     |     |     ")
+  print()
+
+if x3 ==2:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |  X  |     ")
+  print("     |     |     ")
+  print()
+
+if x3 ==3:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |  X  ")
+  print("     |     |     ")
+  print()
+
+if x3 ==4:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("  X  |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if x3 ==5:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |  X  |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if x3 ==6:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |  X  ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if x3 ==7:
+  print()
+  print("     |     |     ")
+  print("  X  |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if x3 ==8:
+  print()
+  print("     |     |     ")
+  print("     |  X  |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if x3 ==9:
+  print()
+  print("     |     |     ")
+  print("     |     |  X  ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+  a = float(input("What is your combination so far? Enter combination as a three digit number, from least to greatest:"))
+
+
+if a == 123:
+    print("congrats! you won!")
+    quit()
+if a == 456:
+    print("congrats! you won!")
+    quit()
+if a == 789:
+    print("congrats! you won!")
+    quit()
+if a == 147:
+    print("congrats! you won!")
+    quit()
+if a == 258:
+    print("congrats! you won!")
+    quit()
+if a == 369:
+    print("congrats! you won!")
+    quit()
+if a == 159:
+    print("congrats! you won!")
+    quit()
+if a == 357:
+    print()
+    print("congrats! you won!")
+    quit()
+
+if a != 123:
+  if a != 456:
+    if a != 789:   
+      if a != 147:    
+        if a != 258:     
+          if a != 369:   
+            if a != 159:    
+              if a != 357:
+                print("GAME OVER!")
+                print("reload to try again.")
+                quit()
+
+print("You can not place 'O' in box numbers", x, x1, x2, x3) 
+print("In your last turn, you placed your 'O' in box numbers",o, o1, o2)
+print()
+print("this is your last turn!!")
+print()
+o3 = float(input("Enter the box number you want to place the O."))
+
+if o3 ==1:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("  O  |     |     ")
+  print("     |     |     ")
+  print()
+
+if o3 ==2:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |  O  |     ")
+  print("     |     |     ")
+  print()
+
+if o3 ==3:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |  O  ")
+  print("     |     |     ")
+  print()
+
+if o3 ==4:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("  O  |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if o3 ==5:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |  O  |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if o3 ==6:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |  O  ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if o3 ==7:
+  print()
+  print("     |     |     ")
+  print("  O  |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if o3 ==8:
+  print()
+  print("     |     |     ")
+  print("     |  O  |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if o3 ==9:
+  print()
+  print("     |     |     ")
+  print("     |     |  O  ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+a = float(input("What is your combination so far? Enter combination as a three digit number, from least to greatest:"))
+
+
+if a == 123:
+    print("congrats! you won!")
+    quit()
+if a == 456:
+    print("congrats! you won!")
+    quit()
+if a == 789:
+    print("congrats! you won!")
+    quit()
+if a == 147:
+    print("congrats! you won!")
+    quit()
+if a == 258:
+    print("congrats! you won!")
+    quit()
+if a == 369:
+    print("congrats! you won!")
+    quit()
+if a == 159:
+    print("congrats! you won!")
+    quit()
+if a == 357:
+    print()
+    print("congrats! you won!")
+    quit()
+
+if a != 123:
+  if a != 456:
+    if a != 789:   
+      if a != 147:    
+        if a != 258:     
+          if a != 369:   
+            if a != 159:    
+              if a != 357:
+                print("X's turn!")
+
+print("You can not place 'X' in box numbers", o, o1, o2, o3) 
+print("In your last turn, you placed your 'X' in box numbers",x, x1, x2, x3)
+print()
+print("this is your last turn!!")
+print()
+x4 = float(input("Enter the box number you want to place the X."))
+
+if x4 ==1:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("  X  |     |     ")
+  print("     |     |     ")
+  print()
+
+if x4 ==2:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |  X  |     ")
+  print("     |     |     ")
+  print()
+
+if x4 ==3:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |  X  ")
+  print("     |     |     ")
+  print()
+
+if x4 ==4:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("  X  |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if x4 ==5:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |  X  |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if x4 ==6:
+  print()
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |  X  ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if x4 ==7:
+  print()
+  print("     |     |     ")
+  print("  X  |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if x4 ==8:
+  print()
+  print("     |     |     ")
+  print("     |  X  |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+if x4 ==9:
+  print()
+  print("     |     |     ")
+  print("     |     |  X  ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("_____|_____|_____")
+  print("     |     |     ")
+  print("     |     |     ")
+  print("     |     |     ")
+  print()
+
+a = float(input("What is your combination so far? Enter combination as a three digit number, from least to greatest:"))
+
+
+if a == 123:
+    print("congrats! you won!")
+    quit()
+if a == 456:
+    print("congrats! you won!")
+    quit()
+if a == 789:
+    print("congrats! you won!")
+    quit()
+if a == 147:
+    print("congrats! you won!")
+    quit()
+if a == 258:
+    print("congrats! you won!")
+    quit()
+if a == 369:
+    print("congrats! you won!")
+    quit()
+if a == 159:
+    print("congrats! you won!")
+    quit()
+if a == 357:
+    print()
+    print("congrats! you won!")
+    quit()
+
+if a != 123:
+  if a != 456:
+    if a != 789:   
+      if a != 147:    
+        if a != 258:     
+          if a != 369:   
+            if a != 159:    
+              if a != 357:
+                print("GAME OVER!")
+                print("reload to try again.")
+                quit()
