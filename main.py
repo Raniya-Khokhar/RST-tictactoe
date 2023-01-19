@@ -1,6 +1,6 @@
 print("This a multiplayer game, Tic-Tac-Toe.")
-print("You will be playing as X.")
-
+print("You will be playing as X. (Player 1)")
+  
 print()
 print("     |     |     ")
 print("  7  |  8  |  9  ")
@@ -133,7 +133,8 @@ if x ==9:
   print()
 
 
-print("You can not place 'O' in box number", x)  
+print("You will be playing as O. (Player 2)")
+print("You can not place 'O' in box number:", x)  
 print()
 o = float(input("Enter the box number you want to place the O."))
 
@@ -256,7 +257,7 @@ if o ==9:
   print()
 
 
-print("You can not place 'X' in box number", o) 
+print("You can not place 'X' in box number:", o) 
 print("In your last turn, you placed your 'X' in box number",x)
 print()
 print("Try to create a line of X's diagonally, verically or horizontally to win, (do not place your 'X' in the same place you did before)")
@@ -381,7 +382,7 @@ if x1 ==9:
   print()
 
 
-print("You can not place 'O' in box numbers", x, x1) 
+print("You can not place 'O' in box numbers:", x, x1) 
 print("In your last turn, you placed your 'O' in box number",o)
 print()
 print("Try to create a line of O's diagonally, verically or horizontally to win, (do not place your 'O' in the same place you did before)")
@@ -505,8 +506,21 @@ if o1 ==9:
   print("     |     |     ")
   print()
 
-print("You can not place 'X' in box numbers", o, o1) 
+print("You can not place 'X' in box numbers:", o, o1) 
 print("In your last turn, you placed your 'X' in box numbers",x, x1)
+print()
+print("this is a reminder of the board numbers placement")
+print()
+print("     |     |     ")
+print("  7  |  8  |  9  ")
+print("_____|_____|_____")
+print("     |     |     ")
+print("  4  |  5  |  6  ")
+print("_____|_____|_____")
+print("     |     |     ")
+print("  1  |  2  |  3  ")
+print("     |     |     ")
+print()
 print()
 x2 = float(input("Enter the box number you want to place the X."))
 
@@ -627,7 +641,7 @@ if x2 ==9:
   print("     |     |     ")
   print()
 
-a = float(input("What is your combination so far? Enter combination as a three digit number from least to greatest:"))
+a = float(input("Have you gotten three in a row yet? If not, enter no. If so, What is your combination so far? Enter combination as a three digit number from least to greatest:"))
 
 
 if a == 123:
@@ -666,8 +680,21 @@ if a != 123:
               if a != 357:
                 print("O's turn!")
 
-print("You can not place 'O' in box numbers", x, x1, x2) 
+print("You can not place 'O' in box numbers:", x, x1, x2) 
 print("In your last turn, you placed your 'O' in box numbers",o, o1)
+print()
+print("this is a reminder of the board numbers' placement")
+print()
+print("     |     |     ")
+print("  7  |  8  |  9  ")
+print("_____|_____|_____")
+print("     |     |     ")
+print("  4  |  5  |  6  ")
+print("_____|_____|_____")
+print("     |     |     ")
+print("  1  |  2  |  3  ")
+print("     |     |     ")
+print()
 print()
 o2 = float(input("Enter the box number you want to place the O."))
 
@@ -788,7 +815,7 @@ if o2 ==9:
   print("     |     |     ")
   print()
 
-a = float(input("What is your combination so far? Enter combination as a three digit number from least to greatest:"))
+a = float(input("Have you gotten three in a row yet? If not, enter no. If so, What is your combination so far? Enter combination as a three digit number from least to greatest:"))
 
 
 if a == 123:
@@ -949,7 +976,7 @@ if x3 ==9:
   print("     |     |     ")
   print()
 
-  a = float(input("What is your combination so far? Enter combination as a three digit number, from least to greatest:"))
+  a = float(input("Have you gotten three in a row yet? If not, enter no. If so, What is your combination so far? Enter combination as a three digit number from least to greatest:"))
 
 
 if a == 123:
@@ -986,9 +1013,9 @@ if a != 123:
           if a != 369:   
             if a != 159:    
               if a != 357:
-                print("GAME OVER!")
-                print("reload to try again.")
-                quit()
+                print("keep going!")
+                print("O's turn!")
+              
 
 print("You can not place 'O' in box numbers", x, x1, x2, x3) 
 print("In your last turn, you placed your 'O' in box numbers",o, o1, o2)
@@ -1114,7 +1141,7 @@ if o3 ==9:
   print("     |     |     ")
   print()
 
-a = float(input("What is your combination so far? Enter combination as a three digit number, from least to greatest:"))
+a = float(input("Have you gotten three in a row yet? If not, enter no. If so, What is your combination so far? Enter combination as a three digit number from least to greatest:"))
 
 
 if a == 123:
@@ -1277,7 +1304,7 @@ if x4 ==9:
   print("     |     |     ")
   print()
 
-a = float(input("What is your combination so far? Enter combination as a three digit number, from least to greatest:"))
+a = float(input("Have you gotten three in a row yet? If not, enter no. If so, What is your combination so far? Enter combination as a three digit number from least to greatest:"))
 
 
 if a == 123:
@@ -1317,3 +1344,4 @@ if a != 123:
                 print("GAME OVER!")
                 print("reload to try again.")
                 quit()
+
